@@ -103,6 +103,7 @@ flutter:
     - assets/images/jobs/
     - assets/images/weather/
     - assets/images/default/
+    - assets/privacy/privacy_policy.html
 
 
   # To add assets to your application, add an assets section, like this:
