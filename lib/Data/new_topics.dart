@@ -5,7 +5,8 @@ final List<String> newTopicNames = [
   "Jobs",
   "Emotions",
   "School Supplies",
-  "Alnimals",
+  "Animals",
+  "Colors",
 
 ];
 
@@ -17,7 +18,8 @@ final Map<String, String> newTopicImages = {
   "Emotions": "assets/images/emotions/emotions.jpg",
   "School Supplies": "assets/images/schoolsupplies/schoolsupplies.jpg",
   "Flowers": "assets/images/flowers/flowers.jpg",
-  "Alnimals": "assets/images/animals/animals.jpg",
+  "Animals": "assets/images/animals/animals.jpg",
+  "Colors": "assets/images/colors/rainbow.jpg",
 };
 
 /// ⚙️ Nếu bạn thêm topic mới từ CategoryDetailPage hoặc admin,

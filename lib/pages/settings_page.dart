@@ -5,6 +5,7 @@ import '../services/feedback_service.dart';
 import 'webview_page.dart';
 import 'information_page.dart';
 
+
 class SettingsPage extends StatelessWidget {
   final bool isDark;
   final void Function(bool) onThemeChanged;
@@ -67,16 +68,16 @@ class SettingsPage extends StatelessWidget {
             ListTile(
               leading: const Icon(Icons.web),
               title: Text('website'.tr()),
-              onTap: () {
+              onTap: () async {
                 Navigator.of(context).pop();
-                Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (_) => const WebViewPage(
-                      url: 'https://flashcardsapp-56acc.web.app',
-                      title: 'Flashcards Website',
-                    ),
-                  ),
-                );
+
+                final Uri url = Uri.parse('https://flashcardsapp-56acc.web.app');
+                if (!await launchUrl(
+                  url,
+                  mode: LaunchMode.externalApplication, // Mở bằng trình duyệt ngoài
+                )) {
+                  throw Exception('Không mở được liên kết');
+                }
               },
             ),
             ListTile(

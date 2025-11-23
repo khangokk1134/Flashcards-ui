@@ -46,7 +46,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '969160013809',
     projectId: 'flashcardsapp-56acc',
     authDomain: 'flashcardsapp-56acc.firebaseapp.com',
-    storageBucket: 'flashcardsapp-56acc.firebasestorage.app',
+    storageBucket: 'flashcardsapp-56acc.appspot.com',
     measurementId: 'G-V1YLLRN6WF',
   );
 

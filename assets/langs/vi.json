@@ -34,6 +34,7 @@
   "review_result_remaining": "❌ Cần ôn lại: {0} từ",
   "review_result_done": "Hoàn thành ✅",
   "topic_missing_image": "❌ Topic này chưa có ảnh trong dữ liệu.",
+  "new_topics": "Chủ đề mới",
 
   "flashcard": {
     "not_remembered": "Chưa nhớ",

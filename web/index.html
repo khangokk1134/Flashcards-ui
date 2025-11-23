@@ -32,6 +32,16 @@
   <title>flashcardsapp</title>
   <link rel="manifest" href="manifest.json">
 </head>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      for (let registration of registrations) {
+        registration.unregister();
+      }
+    });
+  }
+</script>
+
 <body>
   <script src="flutter_bootstrap.js" async></script>
 </body>

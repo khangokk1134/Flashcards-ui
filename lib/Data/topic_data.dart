@@ -71,7 +71,7 @@ final Map<String, List<Map<String, String>>> topicData = {
     {'name': 'Whale', 'img': 'assets/images/sea_animals/whale.png', 'desc_en': 'The largest animal in the ocean', 'desc_vi': 'Động vật lớn nhất đại dương'},
     {'name': 'Crab', 'img': 'assets/images/sea_animals/crab.png', 'desc_en': 'A small sea animal with claws', 'desc_vi': 'Động vật nhỏ có càng'},
     {'name': 'Lobster', 'img': 'assets/images/sea_animals/lobster.png', 'desc_en': 'A sea animal with a hard shell and claws', 'desc_vi': 'Động vật biển có vỏ cứng và càng'},
-    {'name': 'Jellyfish', 'img': 'assets/images/sea_animals/jellyfish.png', 'desc_en': 'A soft sea animal that stings', 'desc_vi': 'Động vật mềm sống dưới biển có thể chích'},
+    {'name': 'Jellyfish', 'img': 'assets/images/sea_animals/jellyfish.jpg', 'desc_en': 'A soft sea animal that stings', 'desc_vi': 'Động vật mềm sống dưới biển có thể chích'},
     {'name': 'Starfish', 'img': 'assets/images/sea_animals/starfish.png', 'desc_en': 'A sea animal shaped like a star', 'desc_vi': 'Động vật biển có hình ngôi sao'},
     {'name': 'Seahorse', 'img': 'assets/images/sea_animals/seahorse.png', 'desc_en': 'A small sea creature shaped like a horse', 'desc_vi': 'Sinh vật biển nhỏ hình con ngựa'},
     {'name': 'Clownfish', 'img': 'assets/images/sea_animals/clownfish.png', 'desc_en': 'A colorful fish from coral reefs', 'desc_vi': 'Cá nhiều màu sống trong rạn san hô'},
@@ -87,7 +87,7 @@ final Map<String, List<Map<String, String>>> topicData = {
     {'name': 'Potato', 'img': 'assets/images/vegetables/potato.png', 'desc_en': 'A brown root vegetable', 'desc_vi': 'Củ màu nâu dùng làm khoai tây'},
     {'name': 'Onion', 'img': 'assets/images/vegetables/onion.png', 'desc_en': 'A vegetable that makes you cry', 'desc_vi': 'Loại rau khiến bạn chảy nước mắt'},
     {'name': 'Cucumber', 'img': 'assets/images/vegetables/cucumber.png', 'desc_en': 'A long green vegetable', 'desc_vi': 'Rau dài màu xanh, dưa leo'},
-    {'name': 'Lettuce', 'img': 'assets/images/vegetables/lettuce.png', 'desc_en': 'A leafy green vegetable', 'desc_vi': 'Rau lá xanh thường dùng trong salad'},
+    {'name': 'Lettuce', 'img': 'assets/images/vegetables/lettuce.jpg', 'desc_en': 'A leafy green vegetable', 'desc_vi': 'Rau lá xanh thường dùng trong salad'},
     {'name': 'Corn', 'img': 'assets/images/vegetables/corn.png', 'desc_en': 'A yellow vegetable that grows on a cob', 'desc_vi': 'Rau màu vàng mọc trên bắp'},
     {'name': 'Eggplant', 'img': 'assets/images/vegetables/eggplant.png', 'desc_en': 'A purple vegetable also called aubergine', 'desc_vi': 'Rau tím còn gọi là cà tím'},
   ],
@@ -105,7 +105,7 @@ final Map<String, List<Map<String, String>>> topicData = {
     {'name': 'Ear', 'img': 'assets/images/body/ear.png', 'desc_en': 'Used for hearing', 'desc_vi': 'Dùng để nghe'},
     {'name': 'Hair', 'img': 'assets/images/body/hair.png', 'desc_en': 'Grows on the head', 'desc_vi': 'Mọc trên đầu'},
     {'name': 'Arm', 'img': 'assets/images/body/arm.png', 'desc_en': 'Used to lift or hold things', 'desc_vi': 'Dùng để nâng hoặc giữ đồ vật'},
-    {'name': 'Leg', 'img': 'assets/images/body/leg.png', 'desc_en': 'Used for walking or running', 'desc_vi': 'Dùng để đi hoặc chạy'},
+    {'name': 'Leg', 'img': 'assets/images/body/leg.jpg', 'desc_en': 'Used for walking or running', 'desc_vi': 'Dùng để đi hoặc chạy'},
     {'name': 'Neck', 'img': 'assets/images/body/neck.png', 'desc_en': 'Connects the head and body', 'desc_vi': 'Nối đầu với thân'},
     {'name': 'Shoulder', 'img': 'assets/images/body/shoulder.png', 'desc_en': 'Connects the arm to the body', 'desc_vi': 'Nối tay với thân'},
     {'name': 'Knee', 'img': 'assets/images/body/knee.png', 'desc_en': 'Middle joint of the leg', 'desc_vi': 'Khớp giữa của chân'},
@@ -208,8 +208,8 @@ final Map<String, List<Map<String, String>>> topicData = {
     {"name": "Farmer", 'img': 'assets/images/jobs/farmer.png', "desc_en": "A person who works on a farm", "desc_vi": "Người làm việc trên nông trại", "example_en": "The farmer grows rice every year.", "example_vi": "Người nông dân trồng lúa mỗi năm."},
     {"name": "Police Officer", 'img': 'assets/images/jobs/policeofficer.png', "desc_en": "A person who protects people and keeps order", "desc_vi": "Cảnh sát bảo vệ người dân và giữ trật tự", "example_en": "The police officer caught the thief.", "example_vi": "Cảnh sát bắt được tên trộm."},
     {"name": "Firefighter", 'img': 'assets/images/jobs/firefighter.png', "desc_en": "A person who puts out fires", "desc_vi": "Người dập tắt đám cháy", "example_en": "The firefighter saved the cat from the fire.", "example_vi": "Lính cứu hỏa cứu con mèo khỏi đám cháy."},
-    {"name": "Pilot", 'img': 'assets/images/jobs/pilot.png', "desc_en": "A person who flies airplanes", "desc_vi": "Phi công lái máy bay", "example_en": "The pilot flies the plane safely.", "example_vi": "Phi công lái máy bay an toàn."},
-    {"name": "Nurse", 'img': 'assets/images/jobs/nurse.png', "desc_en": "A person who helps doctors take care of patients", "desc_vi": "Y tá giúp bác sĩ chăm sóc bệnh nhân", "example_en": "The nurse gave me medicine.", "example_vi": "Y tá đưa thuốc cho tôi."},
+    {"name": "Pilot", 'img': 'assets/images/jobs/pilot.jpg', "desc_en": "A person who flies airplanes", "desc_vi": "Phi công lái máy bay", "example_en": "The pilot flies the plane safely.", "example_vi": "Phi công lái máy bay an toàn."},
+    {"name": "Nurse", 'img': 'assets/images/jobs/nurse.jpg', "desc_en": "A person who helps doctors take care of patients", "desc_vi": "Y tá giúp bác sĩ chăm sóc bệnh nhân", "example_en": "The nurse gave me medicine.", "example_vi": "Y tá đưa thuốc cho tôi."},
     {"name": "Artist", 'img': 'assets/images/jobs/artist.png', "desc_en": "A person who creates art", "desc_vi": "Người sáng tạo nghệ thuật", "example_en": "The artist painted a beautiful picture.", "example_vi": "Họa sĩ vẽ một bức tranh tuyệt đẹp."},
   ],
 
@@ -225,7 +225,7 @@ final Map<String, List<Map<String, String>>> topicData = {
     {"name": "Snowy", 'img': 'assets/images/weather/snowy.png', "desc_en": "When snow falls", "desc_vi": "Trời có tuyết rơi", "example_en": "The mountains are snowy in winter.", "example_vi": "Núi phủ đầy tuyết vào mùa đông."},
     {"name": "Foggy", 'img': 'assets/images/weather/foggy.png', "desc_en": "When there is a lot of fog", "desc_vi": "Trời có nhiều sương mù", "example_en": "The road is foggy this morning.", "example_vi": "Sáng nay đường có nhiều sương mù."},
     {"name": "Hot", 'img': 'assets/images/weather/hot.png', "desc_en": "When the temperature is high", "desc_vi": "Trời nóng", "example_en": "It’s too hot to go outside.", "example_vi": "Trời quá nóng để ra ngoài."},
-    {"name": "Cold", 'img': 'assets/images/weather/cold.png', "desc_en": "When the temperature is low", "desc_vi": "Trời lạnh", "example_en": "It’s cold in December.", "example_vi": "Tháng 12 trời rất lạnh."},
+    {"name": "Cold", 'img': 'assets/images/weather/cold.jpg', "desc_en": "When the temperature is low", "desc_vi": "Trời lạnh", "example_en": "It’s cold in December.", "example_vi": "Tháng 12 trời rất lạnh."},
     {"name": "Rainbow", 'img': 'assets/images/weather/rainbow.png', "desc_en": "Colors in the sky after rain", "desc_vi": "Cầu vồng sau cơn mưa", "example_en": "We saw a rainbow after the rain.", "example_vi": "Chúng tôi thấy cầu vồng sau cơn mưa."},
   ],
 
@@ -234,7 +234,7 @@ final Map<String, List<Map<String, String>>> topicData = {
   // ==========================
   "School Supplies": [
     {"name": "Pencil", 'img': 'assets/images/schoolsupplies/pencil.png', "desc_en": "Used for writing", "desc_vi": "Dùng để viết", "example_en": "I need a new pencil.", "example_vi": "Tôi cần một cây bút chì mới."},
-    {"name": "Pen", 'img': 'assets/images/schoolsupplies/ben.png', "desc_en": "Used for writing in ink", "desc_vi": "Bút mực", "example_en": "She wrote a letter with a blue pen.", "example_vi": "Cô ấy viết thư bằng bút mực xanh."},
+    {"name": "Pen", 'img': 'assets/images/schoolsupplies/pen.jpg', "desc_en": "Used for writing in ink", "desc_vi": "Bút mực", "example_en": "She wrote a letter with a blue pen.", "example_vi": "Cô ấy viết thư bằng bút mực xanh."},
     {"name": "Notebook", 'img': 'assets/images/schoolsupplies/notebook.png', "desc_en": "Book for writing notes", "desc_vi": "Quyển vở để ghi chép", "example_en": "I write my homework in a notebook.", "example_vi": "Tôi viết bài tập vào vở."},
     {"name": "Eraser", 'img': 'assets/images/schoolsupplies/eraser.png', "desc_en": "Used to remove pencil marks", "desc_vi": "Dùng để tẩy xóa", "example_en": "Use an eraser to fix your mistake.", "example_vi": "Dùng tẩy để sửa lỗi sai."},
     {"name": "Ruler", 'img': 'assets/images/schoolsupplies/ruler.png', "desc_en": "Used to draw straight lines", "desc_vi": "Dụng cụ kẻ thẳng", "example_en": "Measure it with a ruler.", "example_vi": "Đo bằng thước kẻ đi."},
@@ -265,15 +265,15 @@ final Map<String, List<Map<String, String>>> topicData = {
   // 🔹 EMOTIONS - Cảm xúc
   // ==========================
   "Emotions": [
-    {"name": "Happy", 'img': 'assets/images/emotions/happy.png', "desc_en": "Feeling joy", "desc_vi": "Vui vẻ", "example_en": "I feel happy today.", "example_vi": "Hôm nay tôi cảm thấy vui."},
+    {"name": "Happy", 'img': 'assets/images/emotions/happy.jpg', "desc_en": "Feeling joy", "desc_vi": "Vui vẻ", "example_en": "I feel happy today.", "example_vi": "Hôm nay tôi cảm thấy vui."},
     {"name": "Sad", 'img': 'assets/images/emotions/sad.png', "desc_en": "Feeling unhappy", "desc_vi": "Buồn bã", "example_en": "She was sad after the movie.", "example_vi": "Cô ấy buồn sau khi xem phim."},
     {"name": "Angry", 'img': 'assets/images/emotions/angry.png', "desc_en": "Feeling mad", "desc_vi": "Tức giận", "example_en": "He was angry about the mistake.", "example_vi": "Anh ấy tức giận vì lỗi đó."},
     {"name": "Surprised", 'img': 'assets/images/emotions/surprised.png', "desc_en": "Feeling amazed", "desc_vi": "Ngạc nhiên", "example_en": "I was surprised by the gift.", "example_vi": "Tôi ngạc nhiên vì món quà."},
     {"name": "Scared", 'img': 'assets/images/emotions/scared.png', "desc_en": "Feeling afraid", "desc_vi": "Sợ hãi", "example_en": "The child was scared of the dark.", "example_vi": "Đứa bé sợ bóng tối."},
     {"name": "Tired", 'img': 'assets/images/emotions/tired.png', "desc_en": "Needing rest", "desc_vi": "Mệt mỏi", "example_en": "I feel tired after work.", "example_vi": "Tôi cảm thấy mệt sau khi làm việc."},
-    {"name": "Excited", 'img': 'assets/images/emotions/excited.png', "desc_en": "Feeling very happy", "desc_vi": "Hào hứng", "example_en": "The kids are excited for the trip.", "example_vi": "Bọn trẻ háo hức cho chuyến đi."},
+    {"name": "Excited", 'img': 'assets/images/emotions/excited.jpg', "desc_en": "Feeling very happy", "desc_vi": "Hào hứng", "example_en": "The kids are excited for the trip.", "example_vi": "Bọn trẻ háo hức cho chuyến đi."},
     {"name": "Bored", 'img': 'assets/images/emotions/bored.png', "desc_en": "Feeling uninterested", "desc_vi": "Chán nản", "example_en": "I'm bored with this movie.", "example_vi": "Tôi thấy chán bộ phim này."},
-    {"name": "Confused", 'img': 'assets/images/emotions/confused.png', "desc_en": "Not understanding", "desc_vi": "Bối rối", "example_en": "He looked confused about the question.", "example_vi": "Anh ấy có vẻ bối rối trước câu hỏi."},
+    {"name": "Confused", 'img': 'assets/images/emotions/confused.jpg', "desc_en": "Not understanding", "desc_vi": "Bối rối", "example_en": "He looked confused about the question.", "example_vi": "Anh ấy có vẻ bối rối trước câu hỏi."},
     {"name": "Proud", 'img': 'assets/images/emotions/proud.png', "desc_en": "Feeling good about success", "desc_vi": "Tự hào", "example_en": "I'm proud of my achievement.", "example_vi": "Tôi tự hào về thành tích của mình."},
   ],
 };

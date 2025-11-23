@@ -34,6 +34,7 @@
   "review_result_remaining": "❌ Words to review: {0}",
   "review_result_done": "Done ✅",
   "topic_missing_image": "❌ This topic does not have an image in the data.",
+  "new_topics": "New Topics",
 
   "flashcard": {
     "not_remembered": "Not remembered",
