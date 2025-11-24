@@ -35,6 +35,10 @@
   "review_result_done": "Done ✅",
   "topic_missing_image": "❌ This topic does not have an image in the data.",
   "new_topics": "New Topics",
+  "device_no_email_support": "Your device does not support opening email clients.",
+  "your_email_optional": "Your email (optional)",
+  "write_feedback": "Write your feedback",
+
 
   "flashcard": {
     "not_remembered": "Not remembered",

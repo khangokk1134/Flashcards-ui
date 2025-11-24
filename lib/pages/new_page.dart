@@ -13,7 +13,7 @@ class NewPage extends StatefulWidget {
 }
 
 class _NewPageState extends State<NewPage> {
-  bool isAdmin = true; // 🔐 Chế độ admin (thêm topic thủ công)
+  bool isAdmin = false; // 🔐 Chế độ admin (thêm topic thủ công)
 
   @override
   void initState() {

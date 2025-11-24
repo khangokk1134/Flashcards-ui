@@ -35,6 +35,9 @@
   "review_result_done": "Hoàn thành ✅",
   "topic_missing_image": "❌ Topic này chưa có ảnh trong dữ liệu.",
   "new_topics": "Chủ đề mới",
+  "device_no_email_support": "Thiết bị của bạn không hỗ trợ mở email.",
+  "your_email_optional": "Email của bạn (không bắt buộc)",
+  "write_feedback": "Viết phản hồi",
 
   "flashcard": {
     "not_remembered": "Chưa nhớ",

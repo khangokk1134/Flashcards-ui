@@ -61,11 +61,11 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
     final isVietnamese = context.locale.languageCode == 'vi';
 
     if (isFavorite) {
-      // ✅ Thêm vào danh sách yêu thích
+      // Thêm vào danh sách yêu thích
       favList.add('${widget.title}|${widget.image}');
       await prefs.setStringList('favorites', favList);
 
-      // 💬 Hiển thị SnackBar theo ngôn ngữ hiện tại
+      // Hiện thông báo
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(
@@ -76,7 +76,7 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
         ),
       );
 
-      // 🔹 Chuyển danh sách từ vựng sang Map chuẩn cho NotificationService
+      // Chuẩn hóa dữ liệu gửi NotificationService
       final topicWords = items.map((e) {
         return {
           'name': e['name'] ?? '',
@@ -85,17 +85,16 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
         };
       }).toList();
 
-      // 🔹 Thêm topic yêu thích vào NotificationService
       await NotificationService.addFavoriteTopic(widget.title, topicWords);
 
-      // ✅ Ghi lại topic yêu thích sang tab "New"
-      await addNewTopicToNewPage(widget.title);
+      // ❗ XOÁ dòng này để Favorite KHÔNG ảnh hưởng đến mục NEW
+      // await addNewTopicToNewPage(widget.title);
+
     } else {
-      // ❌ Xóa khỏi danh sách yêu thích
+      // Xóa khỏi danh sách yêu thích
       favList.removeWhere((e) => e.startsWith('${widget.title}|'));
       await prefs.setStringList('favorites', favList);
 
-      // 💬 Hiển thị SnackBar theo ngôn ngữ hiện tại
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(
@@ -106,10 +105,10 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
         ),
       );
 
-      // 🔹 Gỡ topic khỏi NotificationService
       await NotificationService.removeFavoriteTopic(widget.title);
     }
   }
+
 
   /// 🇻🇳 Lọc danh sách từ vựng theo tên
   void _filterItems(String query) {
